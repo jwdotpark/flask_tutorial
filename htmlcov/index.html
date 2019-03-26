@@ -1,0 +1,2624 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">40%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>41081</td>
+                <td>22112</td>
+                <td>25</td>
+                
+                <td>15813</td>
+                <td>2028</td>
+                
+                <td class="right" data-ratio="22992 56894">40%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr___init___py.html">flaskr/__init__.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 24">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_auth_py.html">flaskr/auth.py</a></td>
+                <td>54</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="76 76">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_blog_py.html">flaskr/blog.py</a></td>
+                <td>54</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="70 70">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_db_py.html">flaskr/db.py</a></td>
+                <td>24</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 28">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest___init___py.html">flaskr/lib/python3.7/site-packages/_pytest/__init__.py</a></td>
+                <td>5</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 5">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest__argcomplete_py.html">flaskr/lib/python3.7/site-packages/_pytest/_argcomplete.py</a></td>
+                <td>36</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="14 48">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest__code___init___py.html">flaskr/lib/python3.7/site-packages/_pytest/_code/__init__.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest__code_code_py.html">flaskr/lib/python3.7/site-packages/_pytest/_code/code.py</a></td>
+                <td>629</td>
+                <td>402</td>
+                <td>0</td>
+                
+                <td>204</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="247 833">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest__code_source_py.html">flaskr/lib/python3.7/site-packages/_pytest/_code/source.py</a></td>
+                <td>214</td>
+                <td>170</td>
+                <td>0</td>
+                
+                <td>79</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 293">15%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest__io___init___py.html">flaskr/lib/python3.7/site-packages/_pytest/_io/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest__io_saferepr_py.html">flaskr/lib/python3.7/site-packages/_pytest/_io/saferepr.py</a></td>
+                <td>43</td>
+                <td>35</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 51">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest__version_py.html">flaskr/lib/python3.7/site-packages/_pytest/_version.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_assertion___init___py.html">flaskr/lib/python3.7/site-packages/_pytest/assertion/__init__.py</a></td>
+                <td>68</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="54 96">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_assertion_rewrite_py.html">flaskr/lib/python3.7/site-packages/_pytest/assertion/rewrite.py</a></td>
+                <td>619</td>
+                <td>415</td>
+                <td>0</td>
+                
+                <td>212</td>
+                <td>26</td>
+                
+                <td class="right" data-ratio="244 831">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_assertion_truncate_py.html">flaskr/lib/python3.7/site-packages/_pytest/assertion/truncate.py</a></td>
+                <td>53</td>
+                <td>40</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 73">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_assertion_util_py.html">flaskr/lib/python3.7/site-packages/_pytest/assertion/util.py</a></td>
+                <td>254</td>
+                <td>228</td>
+                <td>0</td>
+                
+                <td>138</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 392">7%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_cacheprovider_py.html">flaskr/lib/python3.7/site-packages/_pytest/cacheprovider.py</a></td>
+                <td>212</td>
+                <td>104</td>
+                <td>0</td>
+                
+                <td>85</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="131 297">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_capture_py.html">flaskr/lib/python3.7/site-packages/_pytest/capture.py</a></td>
+                <td>445</td>
+                <td>156</td>
+                <td>0</td>
+                
+                <td>126</td>
+                <td>39</td>
+                
+                <td class="right" data-ratio="334 571">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_compat_py.html">flaskr/lib/python3.7/site-packages/_pytest/compat.py</a></td>
+                <td>199</td>
+                <td>73</td>
+                <td>2</td>
+                
+                <td>60</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="155 259">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_config___init___py.html">flaskr/lib/python3.7/site-packages/_pytest/config/__init__.py</a></td>
+                <td>613</td>
+                <td>224</td>
+                <td>0</td>
+                
+                <td>228</td>
+                <td>45</td>
+                
+                <td class="right" data-ratio="482 841">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_config_argparsing_py.html">flaskr/lib/python3.7/site-packages/_pytest/config/argparsing.py</a></td>
+                <td>228</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td>108</td>
+                <td>14</td>
+                
+                <td class="right" data-ratio="202 336">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_config_exceptions_py.html">flaskr/lib/python3.7/site-packages/_pytest/config/exceptions.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_config_findpaths_py.html">flaskr/lib/python3.7/site-packages/_pytest/config/findpaths.py</a></td>
+                <td>100</td>
+                <td>58</td>
+                <td>0</td>
+                
+                <td>68</td>
+                <td>11</td>
+                
+                <td class="right" data-ratio="61 168">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_debugging_py.html">flaskr/lib/python3.7/site-packages/_pytest/debugging.py</a></td>
+                <td>159</td>
+                <td>115</td>
+                <td>0</td>
+                
+                <td>46</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="47 205">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_deprecated_py.html">flaskr/lib/python3.7/site-packages/_pytest/deprecated.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_doctest_py.html">flaskr/lib/python3.7/site-packages/_pytest/doctest.py</a></td>
+                <td>276</td>
+                <td>202</td>
+                <td>11</td>
+                
+                <td>88</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="82 364">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_fixtures_py.html">flaskr/lib/python3.7/site-packages/_pytest/fixtures.py</a></td>
+                <td>719</td>
+                <td>205</td>
+                <td>0</td>
+                
+                <td>254</td>
+                <td>39</td>
+                
+                <td class="right" data-ratio="645 973">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_freeze_support_py.html">flaskr/lib/python3.7/site-packages/_pytest/freeze_support.py</a></td>
+                <td>20</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 28">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_helpconfig_py.html">flaskr/lib/python3.7/site-packages/_pytest/helpconfig.py</a></td>
+                <td>111</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="42 145">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_hookspec_py.html">flaskr/lib/python3.7/site-packages/_pytest/hookspec.py</a></td>
+                <td>55</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 55">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_junitxml_py.html">flaskr/lib/python3.7/site-packages/_pytest/junitxml.py</a></td>
+                <td>313</td>
+                <td>225</td>
+                <td>0</td>
+                
+                <td>116</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="100 429">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_logging_py.html">flaskr/lib/python3.7/site-packages/_pytest/logging.py</a></td>
+                <td>298</td>
+                <td>125</td>
+                <td>0</td>
+                
+                <td>100</td>
+                <td>23</td>
+                
+                <td class="right" data-ratio="210 398">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_main_py.html">flaskr/lib/python3.7/site-packages/_pytest/main.py</a></td>
+                <td>452</td>
+                <td>173</td>
+                <td>0</td>
+                
+                <td>193</td>
+                <td>40</td>
+                
+                <td class="right" data-ratio="348 645">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_mark___init___py.html">flaskr/lib/python3.7/site-packages/_pytest/mark/__init__.py</a></td>
+                <td>82</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="63 110">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_mark_evaluate_py.html">flaskr/lib/python3.7/site-packages/_pytest/mark/evaluate.py</a></td>
+                <td>91</td>
+                <td>59</td>
+                <td>0</td>
+                
+                <td>32</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="34 123">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_mark_legacy_py.html">flaskr/lib/python3.7/site-packages/_pytest/mark/legacy.py</a></td>
+                <td>49</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 73">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_mark_structures_py.html">flaskr/lib/python3.7/site-packages/_pytest/mark/structures.py</a></td>
+                <td>176</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td>66</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="163 242">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_monkeypatch_py.html">flaskr/lib/python3.7/site-packages/_pytest/monkeypatch.py</a></td>
+                <td>151</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td>56</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="93 207">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_nodes_py.html">flaskr/lib/python3.7/site-packages/_pytest/nodes.py</a></td>
+                <td>201</td>
+                <td>77</td>
+                <td>0</td>
+                
+                <td>76</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="150 277">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_nose_py.html">flaskr/lib/python3.7/site-packages/_pytest/nose.py</a></td>
+                <td>37</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="35 57">61%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_outcomes_py.html">flaskr/lib/python3.7/site-packages/_pytest/outcomes.py</a></td>
+                <td>78</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 96">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_pastebin_py.html">flaskr/lib/python3.7/site-packages/_pytest/pastebin.py</a></td>
+                <td>64</td>
+                <td>45</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="22 82">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_pathlib_py.html">flaskr/lib/python3.7/site-packages/_pytest/pathlib.py</a></td>
+                <td>182</td>
+                <td>126</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="61 234">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_python_py.html">flaskr/lib/python3.7/site-packages/_pytest/python.py</a></td>
+                <td>819</td>
+                <td>390</td>
+                <td>0</td>
+                
+                <td>383</td>
+                <td>51</td>
+                
+                <td class="right" data-ratio="546 1202">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_python_api_py.html">flaskr/lib/python3.7/site-packages/_pytest/python_api.py</a></td>
+                <td>239</td>
+                <td>149</td>
+                <td>0</td>
+                
+                <td>102</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="100 341">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_recwarn_py.html">flaskr/lib/python3.7/site-packages/_pytest/recwarn.py</a></td>
+                <td>123</td>
+                <td>94</td>
+                <td>0</td>
+                
+                <td>56</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 179">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_reports_py.html">flaskr/lib/python3.7/site-packages/_pytest/reports.py</a></td>
+                <td>79</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 101">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_resultlog_py.html">flaskr/lib/python3.7/site-packages/_pytest/resultlog.py</a></td>
+                <td>70</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="23 98">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_runner_py.html">flaskr/lib/python3.7/site-packages/_pytest/runner.py</a></td>
+                <td>274</td>
+                <td>91</td>
+                <td>0</td>
+                
+                <td>104</td>
+                <td>23</td>
+                
+                <td class="right" data-ratio="228 378">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_setuponly_py.html">flaskr/lib/python3.7/site-packages/_pytest/setuponly.py</a></td>
+                <td>50</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="25 78">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_setupplan_py.html">flaskr/lib/python3.7/site-packages/_pytest/setupplan.py</a></td>
+                <td>15</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="13 19">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_skipping_py.html">flaskr/lib/python3.7/site-packages/_pytest/skipping.py</a></td>
+                <td>174</td>
+                <td>108</td>
+                <td>0</td>
+                
+                <td>92</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="85 266">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_stepwise_py.html">flaskr/lib/python3.7/site-packages/_pytest/stepwise.py</a></td>
+                <td>52</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="31 80">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_terminal_py.html">flaskr/lib/python3.7/site-packages/_pytest/terminal.py</a></td>
+                <td>606</td>
+                <td>281</td>
+                <td>0</td>
+                
+                <td>304</td>
+                <td>65</td>
+                
+                <td class="right" data-ratio="418 910">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_tmpdir_py.html">flaskr/lib/python3.7/site-packages/_pytest/tmpdir.py</a></td>
+                <td>87</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="51 99">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_unittest_py.html">flaskr/lib/python3.7/site-packages/_pytest/unittest.py</a></td>
+                <td>189</td>
+                <td>140</td>
+                <td>0</td>
+                
+                <td>64</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="51 253">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_warning_types_py.html">flaskr/lib/python3.7/site-packages/_pytest/warning_types.py</a></td>
+                <td>14</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 16">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages__pytest_warnings_py.html">flaskr/lib/python3.7/site-packages/_pytest/warnings.py</a></td>
+                <td>81</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td>31</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="50 112">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_atomicwrites___init___py.html">flaskr/lib/python3.7/site-packages/atomicwrites/__init__.py</a></td>
+                <td>100</td>
+                <td>70</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="32 122">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr___init___py.html">flaskr/lib/python3.7/site-packages/attr/__init__.py</a></td>
+                <td>20</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 20">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr__compat_py.html">flaskr/lib/python3.7/site-packages/attr/_compat.py</a></td>
+                <td>63</td>
+                <td>34</td>
+                <td>5</td>
+                
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="31 67">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr__config_py.html">flaskr/lib/python3.7/site-packages/attr/_config.py</a></td>
+                <td>9</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 11">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr__funcs_py.html">flaskr/lib/python3.7/site-packages/attr/_funcs.py</a></td>
+                <td>79</td>
+                <td>68</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 131">8%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr__make_py.html">flaskr/lib/python3.7/site-packages/attr/_make.py</a></td>
+                <td>684</td>
+                <td>225</td>
+                <td>0</td>
+                
+                <td>341</td>
+                <td>51</td>
+                
+                <td class="right" data-ratio="629 1025">61%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr_converters_py.html">flaskr/lib/python3.7/site-packages/attr/converters.py</a></td>
+                <td>27</td>
+                <td>19</td>
+                <td>0</td>
+                
+                <td>16</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="9 43">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr_exceptions_py.html">flaskr/lib/python3.7/site-packages/attr/exceptions.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr_filters_py.html">flaskr/lib/python3.7/site-packages/attr/filters.py</a></td>
+                <td>15</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 18">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_attr_validators_py.html">flaskr/lib/python3.7/site-packages/attr/validators.py</a></td>
+                <td>88</td>
+                <td>33</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="71 122">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click___init___py.html">flaskr/lib/python3.7/site-packages/click/__init__.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click__compat_py.html">flaskr/lib/python3.7/site-packages/click/_compat.py</a></td>
+                <td>433</td>
+                <td>321</td>
+                <td>0</td>
+                
+                <td>145</td>
+                <td>11</td>
+                
+                <td class="right" data-ratio="131 578">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click__unicodefun_py.html">flaskr/lib/python3.7/site-packages/click/_unicodefun.py</a></td>
+                <td>69</td>
+                <td>53</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="19 107">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_core_py.html">flaskr/lib/python3.7/site-packages/click/core.py</a></td>
+                <td>877</td>
+                <td>398</td>
+                <td>0</td>
+                
+                <td>412</td>
+                <td>88</td>
+                
+                <td class="right" data-ratio="599 1289">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_decorators_py.html">flaskr/lib/python3.7/site-packages/click/decorators.py</a></td>
+                <td>147</td>
+                <td>86</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="69 187">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_exceptions_py.html">flaskr/lib/python3.7/site-packages/click/exceptions.py</a></td>
+                <td>115</td>
+                <td>81</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="35 157">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_formatting_py.html">flaskr/lib/python3.7/site-packages/click/formatting.py</a></td>
+                <td>134</td>
+                <td>112</td>
+                <td>0</td>
+                
+                <td>54</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 188">12%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_globals_py.html">flaskr/lib/python3.7/site-packages/click/globals.py</a></td>
+                <td>18</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="16 24">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_parser_py.html">flaskr/lib/python3.7/site-packages/click/parser.py</a></td>
+                <td>236</td>
+                <td>139</td>
+                <td>0</td>
+                
+                <td>120</td>
+                <td>14</td>
+                
+                <td class="right" data-ratio="123 356">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_termui_py.html">flaskr/lib/python3.7/site-packages/click/termui.py</a></td>
+                <td>195</td>
+                <td>165</td>
+                <td>0</td>
+                
+                <td>78</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 273">11%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_testing_py.html">flaskr/lib/python3.7/site-packages/click/testing.py</a></td>
+                <td>207</td>
+                <td>84</td>
+                <td>0</td>
+                
+                <td>62</td>
+                <td>19</td>
+                
+                <td class="right" data-ratio="142 269">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_types_py.html">flaskr/lib/python3.7/site-packages/click/types.py</a></td>
+                <td>318</td>
+                <td>192</td>
+                <td>0</td>
+                
+                <td>120</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="142 438">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_click_utils_py.html">flaskr/lib/python3.7/site-packages/click/utils.py</a></td>
+                <td>179</td>
+                <td>122</td>
+                <td>0</td>
+                
+                <td>76</td>
+                <td>11</td>
+                
+                <td class="right" data-ratio="68 255">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_coverage_backward_py.html">flaskr/lib/python3.7/site-packages/coverage/backward.py</a></td>
+                <td>100</td>
+                <td>99</td>
+                <td>0</td>
+                
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 116">1%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_coverage_collector_py.html">flaskr/lib/python3.7/site-packages/coverage/collector.py</a></td>
+                <td>197</td>
+                <td>191</td>
+                <td>0</td>
+                
+                <td>84</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="8 281">3%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_coverage_control_py.html">flaskr/lib/python3.7/site-packages/coverage/control.py</a></td>
+                <td>534</td>
+                <td>532</td>
+                <td>0</td>
+                
+                <td>244</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="3 778">1%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_coverage_execfile_py.html">flaskr/lib/python3.7/site-packages/coverage/execfile.py</a></td>
+                <td>156</td>
+                <td>111</td>
+                <td>0</td>
+                
+                <td>55</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="54 211">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_coverage_phystokens_py.html">flaskr/lib/python3.7/site-packages/coverage/phystokens.py</a></td>
+                <td>146</td>
+                <td>138</td>
+                <td>0</td>
+                
+                <td>62</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="10 208">5%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_coverage_python_py.html">flaskr/lib/python3.7/site-packages/coverage/python.py</a></td>
+                <td>129</td>
+                <td>113</td>
+                <td>0</td>
+                
+                <td>44</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="21 173">12%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask___init___py.html">flaskr/lib/python3.7/site-packages/flask/__init__.py</a></td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 17">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask__compat_py.html">flaskr/lib/python3.7/site-packages/flask/_compat.py</a></td>
+                <td>54</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="26 80">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_app_py.html">flaskr/lib/python3.7/site-packages/flask/app.py</a></td>
+                <td>590</td>
+                <td>221</td>
+                <td>0</td>
+                
+                <td>198</td>
+                <td>56</td>
+                
+                <td class="right" data-ratio="451 788">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_blueprints_py.html">flaskr/lib/python3.7/site-packages/flask/blueprints.py</a></td>
+                <td>167</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td>60</td>
+                <td>11</td>
+                
+                <td class="right" data-ratio="120 227">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_cli_py.html">flaskr/lib/python3.7/site-packages/flask/cli.py</a></td>
+                <td>412</td>
+                <td>296</td>
+                <td>0</td>
+                
+                <td>172</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="126 584">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_config_py.html">flaskr/lib/python3.7/site-packages/flask/config.py</a></td>
+                <td>90</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="61 128">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_ctx_py.html">flaskr/lib/python3.7/site-packages/flask/ctx.py</a></td>
+                <td>153</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>16</td>
+                
+                <td class="right" data-ratio="134 195">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_debughelpers_py.html">flaskr/lib/python3.7/site-packages/flask/debughelpers.py</a></td>
+                <td>91</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td>43</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 134">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_globals_py.html">flaskr/lib/python3.7/site-packages/flask/globals.py</a></td>
+                <td>26</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="30 32">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_helpers_py.html">flaskr/lib/python3.7/site-packages/flask/helpers.py</a></td>
+                <td>334</td>
+                <td>186</td>
+                <td>0</td>
+                
+                <td>143</td>
+                <td>24</td>
+                
+                <td class="right" data-ratio="178 477">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_json___init___py.html">flaskr/lib/python3.7/site-packages/flask/json/__init__.py</a></td>
+                <td>117</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td>54</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="49 171">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_json_tag_py.html">flaskr/lib/python3.7/site-packages/flask/json/tag.py</a></td>
+                <td>125</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="116 147">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_logging_py.html">flaskr/lib/python3.7/site-packages/flask/logging.py</a></td>
+                <td>27</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 38">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_sessions_py.html">flaskr/lib/python3.7/site-packages/flask/sessions.py</a></td>
+                <td>125</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="116 151">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_signals_py.html">flaskr/lib/python3.7/site-packages/flask/signals.py</a></td>
+                <td>29</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 31">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_templating_py.html">flaskr/lib/python3.7/site-packages/flask/templating.py</a></td>
+                <td>82</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td>30</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="52 112">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_testing_py.html">flaskr/lib/python3.7/site-packages/flask/testing.py</a></td>
+                <td>94</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td>32</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="72 126">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_flask_wrappers_py.html">flaskr/lib/python3.7/site-packages/flask/wrappers.py</a></td>
+                <td>65</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td>24</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="39 89">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous___init___py.html">flaskr/lib/python3.7/site-packages/itsdangerous/__init__.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous__compat_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/_compat.py</a></td>
+                <td>22</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="12 28">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous__json_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/_json.py</a></td>
+                <td>11</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 11">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous_encoding_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/encoding.py</a></td>
+                <td>27</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 29">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous_exc_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/exc.py</a></td>
+                <td>31</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="17 33">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous_jws_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/jws.py</a></td>
+                <td>120</td>
+                <td>83</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 148">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous_serializer_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/serializer.py</a></td>
+                <td>90</td>
+                <td>33</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="66 116">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous_signer_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/signer.py</a></td>
+                <td>85</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="74 107">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous_timed_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/timed.py</a></td>
+                <td>79</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="61 99">62%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_itsdangerous_url_safe_py.html">flaskr/lib/python3.7/site-packages/itsdangerous/url_safe.py</a></td>
+                <td>37</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="30 45">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2___init___py.html">flaskr/lib/python3.7/site-packages/jinja2/__init__.py</a></td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="19 20">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2__compat_py.html">flaskr/lib/python3.7/site-packages/jinja2/_compat.py</a></td>
+                <td>63</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="39 85">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2__identifier_py.html">flaskr/lib/python3.7/site-packages/jinja2/_identifier.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_asyncfilters_py.html">flaskr/lib/python3.7/site-packages/jinja2/asyncfilters.py</a></td>
+                <td>79</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td>46</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="45 125">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_asyncsupport_py.html">flaskr/lib/python3.7/site-packages/jinja2/asyncsupport.py</a></td>
+                <td>169</td>
+                <td>103</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="67 207">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_bccache_py.html">flaskr/lib/python3.7/site-packages/jinja2/bccache.py</a></td>
+                <td>161</td>
+                <td>118</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="44 203">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_compiler_py.html">flaskr/lib/python3.7/site-packages/jinja2/compiler.py</a></td>
+                <td>1142</td>
+                <td>630</td>
+                <td>0</td>
+                
+                <td>471</td>
+                <td>74</td>
+                
+                <td class="right" data-ratio="667 1613">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_defaults_py.html">flaskr/lib/python3.7/site-packages/jinja2/defaults.py</a></td>
+                <td>20</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 22">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_environment_py.html">flaskr/lib/python3.7/site-packages/jinja2/environment.py</a></td>
+                <td>515</td>
+                <td>292</td>
+                <td>0</td>
+                
+                <td>183</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="254 698">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_exceptions_py.html">flaskr/lib/python3.7/site-packages/jinja2/exceptions.py</a></td>
+                <td>70</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="27 98">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_ext_py.html">flaskr/lib/python3.7/site-packages/jinja2/ext.py</a></td>
+                <td>302</td>
+                <td>238</td>
+                <td>0</td>
+                
+                <td>145</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="64 447">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_filters_py.html">flaskr/lib/python3.7/site-packages/jinja2/filters.py</a></td>
+                <td>384</td>
+                <td>293</td>
+                <td>0</td>
+                
+                <td>156</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="91 540">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_idtracking_py.html">flaskr/lib/python3.7/site-packages/jinja2/idtracking.py</a></td>
+                <td>204</td>
+                <td>82</td>
+                <td>0</td>
+                
+                <td>90</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="153 294">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_lexer_py.html">flaskr/lib/python3.7/site-packages/jinja2/lexer.py</a></td>
+                <td>351</td>
+                <td>78</td>
+                <td>0</td>
+                
+                <td>145</td>
+                <td>26</td>
+                
+                <td class="right" data-ratio="372 496">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_loaders_py.html">flaskr/lib/python3.7/site-packages/jinja2/loaders.py</a></td>
+                <td>223</td>
+                <td>137</td>
+                <td>0</td>
+                
+                <td>68</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="97 291">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_nodes_py.html">flaskr/lib/python3.7/site-packages/jinja2/nodes.py</a></td>
+                <td>453</td>
+                <td>159</td>
+                <td>0</td>
+                
+                <td>137</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="344 590">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_optimizer_py.html">flaskr/lib/python3.7/site-packages/jinja2/optimizer.py</a></td>
+                <td>17</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 17">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_parser_py.html">flaskr/lib/python3.7/site-packages/jinja2/parser.py</a></td>
+                <td>644</td>
+                <td>324</td>
+                <td>0</td>
+                
+                <td>281</td>
+                <td>54</td>
+                
+                <td class="right" data-ratio="427 925">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_runtime_py.html">flaskr/lib/python3.7/site-packages/jinja2/runtime.py</a></td>
+                <td>417</td>
+                <td>232</td>
+                <td>0</td>
+                
+                <td>156</td>
+                <td>22</td>
+                
+                <td class="right" data-ratio="225 573">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_tests_py.html">flaskr/lib/python3.7/site-packages/jinja2/tests.py</a></td>
+                <td>52</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 52">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_utils_py.html">flaskr/lib/python3.7/site-packages/jinja2/utils.py</a></td>
+                <td>310</td>
+                <td>185</td>
+                <td>0</td>
+                
+                <td>88</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="134 398">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_jinja2_visitor_py.html">flaskr/lib/python3.7/site-packages/jinja2/visitor.py</a></td>
+                <td>40</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="48 62">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_markupsafe___init___py.html">flaskr/lib/python3.7/site-packages/markupsafe/__init__.py</a></td>
+                <td>164</td>
+                <td>88</td>
+                <td>0</td>
+                
+                <td>44</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="83 208">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_markupsafe__compat_py.html">flaskr/lib/python3.7/site-packages/markupsafe/_compat.py</a></td>
+                <td>18</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="11 20">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_more_itertools___init___py.html">flaskr/lib/python3.7/site-packages/more_itertools/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_more_itertools_more_py.html">flaskr/lib/python3.7/site-packages/more_itertools/more.py</a></td>
+                <td>582</td>
+                <td>476</td>
+                <td>0</td>
+                
+                <td>269</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="117 851">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_more_itertools_recipes_py.html">flaskr/lib/python3.7/site-packages/more_itertools/recipes.py</a></td>
+                <td>138</td>
+                <td>105</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 190">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources___init___py.html">flaskr/lib/python3.7/site-packages/pkg_resources/__init__.py</a></td>
+                <td>1528</td>
+                <td>841</td>
+                <td>3</td>
+                
+                <td>504</td>
+                <td>53</td>
+                
+                <td class="right" data-ratio="810 2032">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor___init___py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_appdirs_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/appdirs.py</a></td>
+                <td>250</td>
+                <td>218</td>
+                <td>0</td>
+                
+                <td>138</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="36 388">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging___about___py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__about__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging___init___py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging__compat_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_compat.py</a></td>
+                <td>12</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="12 14">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging__structures_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_structures.py</a></td>
+                <td>41</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 41">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging_markers_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/markers.py</a></td>
+                <td>130</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td>49</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="62 179">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging_requirements_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/requirements.py</a></td>
+                <td>72</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="61 90">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging_specifiers_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py</a></td>
+                <td>284</td>
+                <td>195</td>
+                <td>0</td>
+                
+                <td>128</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="92 412">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_packaging_version_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/version.py</a></td>
+                <td>150</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td>88</td>
+                <td>16</td>
+                
+                <td class="right" data-ratio="141 238">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_pyparsing_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py</a></td>
+                <td>2528</td>
+                <td>1339</td>
+                <td>0</td>
+                
+                <td>1076</td>
+                <td>136</td>
+                
+                <td class="right" data-ratio="1490 3604">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources__vendor_six_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/_vendor/six.py</a></td>
+                <td>444</td>
+                <td>209</td>
+                <td>0</td>
+                
+                <td>136</td>
+                <td>19</td>
+                
+                <td class="right" data-ratio="282 580">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources_extern___init___py.html">flaskr/lib/python3.7/site-packages/pkg_resources/extern/__init__.py</a></td>
+                <td>35</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="36 45">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pkg_resources_py31compat_py.html">flaskr/lib/python3.7/site-packages/pkg_resources/py31compat.py</a></td>
+                <td>12</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 14">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pluggy___init___py.html">flaskr/lib/python3.7/site-packages/pluggy/__init__.py</a></td>
+                <td>8</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 8">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pluggy__tracing_py.html">flaskr/lib/python3.7/site-packages/pluggy/_tracing.py</a></td>
+                <td>59</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="31 69">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pluggy__version_py.html">flaskr/lib/python3.7/site-packages/pluggy/_version.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pluggy_callers_py.html">flaskr/lib/python3.7/site-packages/pluggy/callers.py</a></td>
+                <td>122</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td>42</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="72 164">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pluggy_hooks_py.html">flaskr/lib/python3.7/site-packages/pluggy/hooks.py</a></td>
+                <td>177</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td>60</td>
+                <td>13</td>
+                
+                <td class="right" data-ratio="169 237">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pluggy_manager_py.html">flaskr/lib/python3.7/site-packages/pluggy/manager.py</a></td>
+                <td>177</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td>78</td>
+                <td>16</td>
+                
+                <td class="right" data-ratio="133 255">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py___init___py.html">flaskr/lib/python3.7/site-packages/py/__init__.py</a></td>
+                <td>14</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 14">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__builtin_py.html">flaskr/lib/python3.7/site-packages/py/_builtin.py</a></td>
+                <td>112</td>
+                <td>78</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="37 146">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__code___init___py.html">flaskr/lib/python3.7/site-packages/py/_code/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__code_code_py.html">flaskr/lib/python3.7/site-packages/py/_code/code.py</a></td>
+                <td>524</td>
+                <td>408</td>
+                <td>0</td>
+                
+                <td>182</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="118 706">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__error_py.html">flaskr/lib/python3.7/site-packages/py/_error.py</a></td>
+                <td>52</td>
+                <td>35</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 60">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__io___init___py.html">flaskr/lib/python3.7/site-packages/py/_io/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__io_capture_py.html">flaskr/lib/python3.7/site-packages/py/_io/capture.py</a></td>
+                <td>266</td>
+                <td>215</td>
+                <td>0</td>
+                
+                <td>102</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="52 368">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__io_terminalwriter_py.html">flaskr/lib/python3.7/site-packages/py/_io/terminalwriter.py</a></td>
+                <td>266</td>
+                <td>159</td>
+                <td>0</td>
+                
+                <td>108</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="140 374">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__path___init___py.html">flaskr/lib/python3.7/site-packages/py/_path/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__path_common_py.html">flaskr/lib/python3.7/site-packages/py/_path/common.py</a></td>
+                <td>274</td>
+                <td>118</td>
+                <td>0</td>
+                
+                <td>104</td>
+                <td>22</td>
+                
+                <td class="right" data-ratio="196 378">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__path_local_py.html">flaskr/lib/python3.7/site-packages/py/_path/local.py</a></td>
+                <td>690</td>
+                <td>463</td>
+                <td>0</td>
+                
+                <td>285</td>
+                <td>29</td>
+                
+                <td class="right" data-ratio="292 975">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__vendored_packages___init___py.html">flaskr/lib/python3.7/site-packages/py/_vendored_packages/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__vendored_packages_apipkg_py.html">flaskr/lib/python3.7/site-packages/py/_vendored_packages/apipkg.py</a></td>
+                <td>148</td>
+                <td>55</td>
+                <td>0</td>
+                
+                <td>64</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="123 212">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__vendored_packages_iniconfig_py.html">flaskr/lib/python3.7/site-packages/py/_vendored_packages/iniconfig.py</a></td>
+                <td>122</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>11</td>
+                
+                <td class="right" data-ratio="119 174">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__version_py.html">flaskr/lib/python3.7/site-packages/py/_version.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_py__xmlgen_py.html">flaskr/lib/python3.7/site-packages/py/_xmlgen.py</a></td>
+                <td>170</td>
+                <td>117</td>
+                <td>0</td>
+                
+                <td>50</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="61 220">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_pytest_py.html">flaskr/lib/python3.7/site-packages/pytest.py</a></td>
+                <td>44</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 46">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_six_py.html">flaskr/lib/python3.7/site-packages/six.py</a></td>
+                <td>472</td>
+                <td>235</td>
+                <td>0</td>
+                
+                <td>152</td>
+                <td>20</td>
+                
+                <td class="right" data-ratio="283 624">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug___init___py.html">flaskr/lib/python3.7/site-packages/werkzeug/__init__.py</a></td>
+                <td>28</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="26 38">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug__compat_py.html">flaskr/lib/python3.7/site-packages/werkzeug/_compat.py</a></td>
+                <td>148</td>
+                <td>80</td>
+                <td>0</td>
+                
+                <td>67</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="94 215">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug__internal_py.html">flaskr/lib/python3.7/site-packages/werkzeug/_internal.py</a></td>
+                <td>243</td>
+                <td>143</td>
+                <td>0</td>
+                
+                <td>90</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="122 333">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_datastructures_py.html">flaskr/lib/python3.7/site-packages/werkzeug/datastructures.py</a></td>
+                <td>1364</td>
+                <td>816</td>
+                <td>0</td>
+                
+                <td>544</td>
+                <td>43</td>
+                
+                <td class="right" data-ratio="637 1908">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_exceptions_py.html">flaskr/lib/python3.7/site-packages/werkzeug/exceptions.py</a></td>
+                <td>215</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td>36</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="198 251">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_filesystem_py.html">flaskr/lib/python3.7/site-packages/werkzeug/filesystem.py</a></td>
+                <td>22</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 28">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_formparser_py.html">flaskr/lib/python3.7/site-packages/werkzeug/formparser.py</a></td>
+                <td>256</td>
+                <td>175</td>
+                <td>4</td>
+                
+                <td>102</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="88 358">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_http_py.html">flaskr/lib/python3.7/site-packages/werkzeug/http.py</a></td>
+                <td>494</td>
+                <td>327</td>
+                <td>0</td>
+                
+                <td>256</td>
+                <td>25</td>
+                
+                <td class="right" data-ratio="204 750">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_local_py.html">flaskr/lib/python3.7/site-packages/werkzeug/local.py</a></td>
+                <td>216</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td>140</td>
+                <td>58</td>
+                
+                <td class="right" data-ratio="216 356">61%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_middleware___init___py.html">flaskr/lib/python3.7/site-packages/werkzeug/middleware/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_middleware_dispatcher_py.html">flaskr/lib/python3.7/site-packages/werkzeug/middleware/dispatcher.py</a></td>
+                <td>18</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 22">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_middleware_http_proxy_py.html">flaskr/lib/python3.7/site-packages/werkzeug/middleware/http_proxy.py</a></td>
+                <td>93</td>
+                <td>81</td>
+                <td>0</td>
+                
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 129">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_middleware_shared_data_py.html">flaskr/lib/python3.7/site-packages/werkzeug/middleware/shared_data.py</a></td>
+                <td>113</td>
+                <td>89</td>
+                <td>0</td>
+                
+                <td>58</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 171">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_routing_py.html">flaskr/lib/python3.7/site-packages/werkzeug/routing.py</a></td>
+                <td>839</td>
+                <td>277</td>
+                <td>0</td>
+                
+                <td>354</td>
+                <td>71</td>
+                
+                <td class="right" data-ratio="735 1193">62%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_security_py.html">flaskr/lib/python3.7/site-packages/werkzeug/security.py</a></td>
+                <td>107</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td>54</td>
+                <td>13</td>
+                
+                <td class="right" data-ratio="82 161">51%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_test_py.html">flaskr/lib/python3.7/site-packages/werkzeug/test.py</a></td>
+                <td>546</td>
+                <td>232</td>
+                <td>0</td>
+                
+                <td>206</td>
+                <td>48</td>
+                
+                <td class="right" data-ratio="392 752">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_urls_py.html">flaskr/lib/python3.7/site-packages/werkzeug/urls.py</a></td>
+                <td>454</td>
+                <td>163</td>
+                <td>0</td>
+                
+                <td>229</td>
+                <td>53</td>
+                
+                <td class="right" data-ratio="391 683">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_utils_py.html">flaskr/lib/python3.7/site-packages/werkzeug/utils.py</a></td>
+                <td>298</td>
+                <td>187</td>
+                <td>0</td>
+                
+                <td>124</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="121 422">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers___init___py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/__init__.py</a></td>
+                <td>16</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 16">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_accept_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/accept.py</a></td>
+                <td>14</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 14">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_auth_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/auth.py</a></td>
+                <td>16</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 20">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_base_request_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/base_request.py</a></td>
+                <td>181</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td>36</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="117 217">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_base_response_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py</a></td>
+                <td>231</td>
+                <td>60</td>
+                <td>0</td>
+                
+                <td>96</td>
+                <td>24</td>
+                
+                <td class="right" data-ratio="225 327">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_common_descriptors_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/common_descriptors.py</a></td>
+                <td>94</td>
+                <td>32</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="65 116">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_etag_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/etag.py</a></td>
+                <td>116</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 156">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_request_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/request.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_response_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/response.py</a></td>
+                <td>38</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 46">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wrappers_user_agent_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wrappers/user_agent.py</a></td>
+                <td>5</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 5">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="flaskr_lib_python3_7_site-packages_werkzeug_wsgi_py.html">flaskr/lib/python3.7/site-packages/werkzeug/wsgi.py</a></td>
+                <td>455</td>
+                <td>277</td>
+                <td>0</td>
+                
+                <td>194</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="225 649">35%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.3</a>,
+            created at 2019-03-26 18:30
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
